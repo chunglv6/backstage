@@ -1,0 +1,15 @@
+openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Authentication Service API
+      license:
+        name: MIT
+    servers:
+      - url: https://auth.example.com/v1
+    paths:
+      /signup:
+        post:
+          summary: Create a new user account
+          responses:
+            '201':
+              description: Created
